@@ -1,0 +1,255 @@
+<!-- <!doctype html> 
+<head>
+	<title>
+		First Web page
+	</title>
+	
+	<style>
+	
+		*
+		{
+			margin:0px;
+		}
+	
+		.header
+		{
+				background-color:black;
+				height:50px;
+				width:100%;
+		}
+	
+		ul
+		{
+			list-style-type:none;
+		
+			color:white;
+		}
+		li
+		{
+			float:left;
+		}
+		li a
+		{
+			padding:14px ;
+			font-size:20px
+		}
+	
+		.main
+		{
+			height:700px;
+			width:100%;
+		
+		}
+		
+		.about-us
+		{
+			height:600px;
+			width:100%;
+			
+		}
+		
+		.text1
+		{
+			height:500px;
+			width:50%;
+			float:left;
+		}
+		.img1
+		{
+			height:500px;
+			width:50%;
+			float:left;
+		}	
+		.contact-us
+		{
+			height:600px;
+			width:100%;
+			
+		}
+		.map
+		{
+			height:500px;
+			width:50%;
+			float:left;
+		}
+		.form
+		{
+			height:500px;
+			width:50%;
+			float:left;
+			display:flex;
+			justify-content:center;
+			
+		}	
+	
+	</style>
+	
+
+</head>
+<body>
+
+
+		<div class="header">
+			<ul>
+				<li><a>Home</a></li>
+				<li><a>About Us</a></li>
+				<li><a>Services</a></li>
+				<li><a>Testimonials</a></li>
+				<li><a>Contact-Us</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="main">
+				<img  src="https://images.unsplash.com/photo-1595776613215-fe04b78de7d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" style="height:700px;width:100%">
+		</div>
+		
+		<div class="about-us">
+			
+			<div class="text1">
+				<h1 style="color:royalblue;margin:20px;">About-us</h1>
+				<h2 style="color:gray;margin:20px;">
+				
+© Provided by The Times of India
+BENGALURU: Digital healthcare venture MediBuddy has raised $125 million in Series C funding from Quadria Capital and Lightrock India, along with participation from existing investors Bessemer Venture Partners, India Life Sciences Fund III, Rebright Partners and others.
+<br>
+MediBuddy provides its users with 24x7 access to doctors via video calls, doorstep medicine delivery, at-home lab tests, mental health support, and other integrated healthcare services all in one place. The platform has catered to the healthcare needs of over 3 crore Indians, leveraging its pan-India network of 90,000 doctors, 7,000 hospitals, 3,000 diagnostic centres, and 2,500 pharmacies that cover over 96% of PIN codes across the country.
+<br>
+MediBuddy caters to over 700 corporates and 50 lakh employees  will further invest in customer awareness, hiring, strengthening technology platforms including data science capabilities, clinical research, and product development.</h3>
+			</div>
+			<div class="img1">
+			<div style="height:500px;width:100%;"><iframe allow="fullscreen" frameBorder="0" height="500px" width="100%" src="https://giphy.com/embed/V5hODlkcyo9ARK28mj/video" width="480"></iframe></div>
+			
+			</div>
+				
+		
+		</div>
+		
+		<div class="contact-us">
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486.80765031658905!2d73.9336621197228!3d18.502060796445114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1e15cb25711%3A0x6b2d076e2edfb965!2sWorld%20Blazing%20computer%20solution!5e0!3m2!1sen!2sin!4v1645612545271!5m2!1sen!2sin"  height="500px" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			<div class="form">
+				
+				<form action="" method="">
+				  <label >First name:</label><br>
+				  <input type="text" id="fname" name="fname" required placeholder="Enter your firstname"><br>
+				  <label >Last name:</label><br>
+				  <input type="text" id="lname" name="lname" required placeholder="Enter your lastname"><br><br>
+				  <label >Email:</label><br>
+				  <input type="email" id="lname" name="lname" required placeholder="Enter your email"><br><br>
+				  <input type="submit" value="Submit">
+				</form> 
+
+			</div>
+		
+		</div>
+	
+
+</body>
+</html>--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+#home {
+    background-color: #3498db;
+}
+
+#about {
+    background-color: #2ecc71;
+}
+
+#services {
+    background-color: #e74c3c;
+}
+
+#contact {
+    background-color: #9b59b6;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar a:hover {
+    color: #f39c12;
+}
+</style>
+<body>
+    <nav class="navbar" id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">Home Section</section>
+    <section id="about" class="section">About Section</section>
+    <section id="services" class="section">Services Section</section>
+    <section id="contact" class="section">Contact Section</section>
+
+    <script src="script.js"> window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});</script>
+</body>
+</html>
